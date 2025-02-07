@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Cambiar el cursor a una mano al pasar por encima */
+}
+
+.team img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.riders {
+    text-align: center;
+}
+
+.riders p {
+    margin: 5px 0;
+}
+
+/* Estilos para los colores de los equipos */
+.aprilia {
+    border-top: 5px solid #000; /* Negro */
+}
+
+.ducati {
+    border-top: 5px solid #c00; /* Rojo */
+}
+
+.yamaha {
+    border-top: 5px solid #00f; /* Azul */
+}
+
+.honda {
+    border-top: 5px solid #c00; /* Rojo */
+}
+
+.ktm {
+    border-top: 5px solid #f60; /* Naranja */
+}
+
+.lcr {
+    border-top: 5px solid #000; /* Negro */
+}

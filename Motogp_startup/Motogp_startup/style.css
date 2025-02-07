@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff0000;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cart-icon img {
+    height: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 80%;
+}
+
+.product-grid img {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container {
+    margin-top: 50px;
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddd;
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.equipment-grid {
+    display: flex;
+    justify-content: space-around; 
+    gap: 40px; 
+    flex-wrap: wrap; 
+    padding: 40px;
+}
+
+.item {
+    text-align: center; 
+    width: 250px; 
+}
+
+.item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 350px; 
+}
+
+.item-description {
+    font-size: 18px; 
+    margin: 20px 0;
+}
+
+.item-price {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #ff6600;
+}
