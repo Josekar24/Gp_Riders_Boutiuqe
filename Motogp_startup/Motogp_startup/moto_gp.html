@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motos Gp</title>
+    <title>Motos GP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
             <ul>
                 <li><a href="index.html">Productos</a></li>
                 <li><a href="equipamientos.html">Equipamiento</a></li>
-                <li><a href="moto_gp.html">Motos Gp</a></li>
+                <li><a href="moto_gp.html">Motos GP</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
@@ -24,82 +25,140 @@
             <img src="img/entrega.png" alt="Carrito">
         </div>
     </header>
-<body>
     <div class="container">
         <h1>2025 MotoGP™ Line-up</h1>
         <div class="teams">
-            <div class="team aprilia">
-                <img src="aprilia.png" alt="Aprilia Racing">
+            <div class="team aprilia" data-team="Aprilia Racing">
+                <img src="img/Aprilia Racing.png" alt="Aprilia Racing">
                 <div class="riders">
-                    <p>MARTIN</p>
-                    <p>M BEZZECCHI</p>
+                    <div class="rider" data-name="Jorge Martin" data-image="img/riders/Jorge Martin.png">
+                        <p>Jorge Martin</p>
+                    </div>
+                    <div class="rider" data-name="Marco Bezzecchi" data-image="img/riders/B.png">
+                        <p>Marco Bezzecchi</p>
+                    </div>
                 </div>
             </div>
-            <div class="team ducati">
-                <img src="ducati.png" alt="Ducati Lenovo Team">
+            <div class="team ducati" data-team="Ducati Lenovo Team">
+                <img src="img/Ducati Lenovo Team.png" alt="Ducati Lenovo Team">
                 <div class="riders">
-                    <p>FBAGNAIA</p>
-                    <p>M MARQUEZ</p>
+                    <div class="rider" data-name="Francesco Bagnaia" data-image="img/riders/Bagnaia.png">
+                        <p>Francesco Bagnaia</p>
+                    </div>
+                    <div class="rider" data-name="Marc Marquez" data-image="img/riders/GOAT.png">
+                        <p>Marc Marquez</p>
+                    </div>
                 </div>
             </div>
-            <div class="team yamaha">
-                <img src="yamaha.png" alt="Monster Energy Yamaha MotoGP">
+            <div class="team gresini" data-team="Gresini Racing MotoGP">
+                <img src="img/gresini.png" alt="Gresini Racing MotoGP">
                 <div class="riders">
-                    <p>QUARTARARD</p>
-                    <p>A RINS</p>
+                    <div class="rider" data-name="Fermin Aldeguer" data-image="img/riders/Aldeguer.png">
+                        <p>Fermin Aldeguer</p>
+                    </div>
+                    <div class="rider" data-name="Alex Marquez" data-image="img/riders/A.Marquez.png">
+                        <p>Alex Marquez</p>
+                    </div>
                 </div>
             </div>
-            <div class="team honda">
-                <img src="honda.png" alt="Repsol Honda Team">
+            <div class="team honda" data-team="Honda HRC Castrol">
+                <img src="img/Honda HRC Castrol.png" alt="Honda HRC Castrol">
                 <div class="riders">
-                    <p>MARENS</p>
-                    <p>MIR</p>
+                    <div class="rider" data-name="Luca Marini" data-image="img/riders/Marini.png">
+                        <p>Luca Marini</p>
+                    </div>
+                    <div class="rider" data-name="Joan Mir" data-image="img/riders/Mir.png">
+                        <p>Joan Mir</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="teams">
-            <div class="team ducati">
-                <img src="ducati.png" alt="Gresini Racing MotoGP">
+            <div class="team lcr" data-team="LCR Honda Castrol">
+                <img src="img/LCR Honda.png" alt="LCR Honda Castrol">
                 <div class="riders">
-                    <p>A MARQUEZ</p>
-                    <p>FALDEGUER</p>
+                    <div class="rider" data-name="Johann Zarco" data-image="img/riders/zarco.png">
+                        <p>Johann Zarco</p>
+                    </div>
+                    <div class="rider" data-name="Somkiat Chantra" data-image="img/riders/chantra.png">
+                        <p>Somkiat Chantra</p>
+                    </div>
                 </div>
             </div>
-            <div class="team ducati">
-                <img src="ducati.png" alt="Pramac Racing">
+            <div class="team yamaha" data-team="Monster Energy Yamaha MotoGP">
+                <img src="img/yamaha_oficial.png" alt="Monster Energy Yamaha MotoGP">
                 <div class="riders">
-                    <p>FDI GIANNANTONIO</p>
-                    <p>F MORBIDELLI</p>
+                    <div class="rider" data-name="Fabio Quartararo" data-image="img/riders/Quartararo.png">
+                        <p>Fabio Quartararo</p>
+                    </div>
+                    <div class="rider" data-name="Alex Rins" data-image="img/riders/Rins.png">
+                        <p>Alex Rins</p>
+                    </div>
                 </div>
             </div>
-            <div class="team ktm">
-                <img src="ktm.png" alt="Red Bull KTM Factory Racing">
+            <div class="team pramac" data-team="Prima Pramac Racing">
+                <img src="img/pramac.png" alt="Prima Pramac Racing">
                 <div class="riders">
-                    <p>BASTIANINT</p>
-                    <p>M VIÑALES</p>
+                    <div class="rider" data-name="Jack Miller" data-image="img/riders/Miller.png">
+                        <p>Jack Miller</p>
+                    </div>
+                    <div class="rider" data-name="Miguel Oliveira" data-image="img/riders/oleveira.png">
+                        <p>Miguel Oliveira</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="teams">
-            <div class="team lcr">
-                <img src="lcr.png" alt="LCR Honda Castrol">
+            <div class="team vr46" data-team="Pertamina Enduro VR46 Racing Team">
+                <img src="img/Pertamina Enduro VR46 Racing Team.png" alt="Pertamina Enduro VR46 Racing Team">
                 <div class="riders">
-                    <p>ZARCO</p>
-                    <p>S CHANTRA</p>
+                    <div class="rider" data-name="Franco Morbidelli" data-image="img/riders/Fabio MORDEBILLLI.PNG">
+                        <p>Franco Morbidelli</p>
+                    </div>
+                    <div class="rider" data-name="Fabio Di Giannantonio" data-image="img/riders/Antonio.png">
+                        <p>Fabio Di Giannantonio</p>
+                    </div>
                 </div>
             </div>
-            <div class="team yamaha">
-                <img src="yamaha.png" alt="WithU Yamaha RNF MotoGP Team">
+            <div class="team ktm" data-team="Red Bull KTM Factory Racing">
+                <img src="img/Red Bull KTM Factory Racing.png" alt="Red Bull KTM Factory Racing">
                 <div class="riders">
-                    <p>MOLIVEIRA</p>
-                    <p>MILLER</p>
+                    <div class="rider" data-name="Brad Binder" data-image="img/riders/Binder.png">
+                        <p>Brad Binder</p>
+                    </div>
+                    <div class="rider" data-name="Pedro Acosta" data-image="img/riders/Acosta.png">
+                        <p>Pedro Acosta</p>
+                    </div>
                 </div>
             </div>
-            <div class="team aprilia">
-                <img src="aprilia.png" alt="Aprilia Racing">
+            <div class="team ktm-tech3" data-team="Red Bull KTM Tech3">
+                <img src="img/Red Bull KTM Tech3.png" alt="Red Bull KTM Tech3">
                 <div class="riders">
-                    <p>FERNANDEZ</p>
-                    <p>A OGURA</p>
+                    <div class="rider" data-name="Maverick Viñales" data-image="img/riders/Viñales.png">
+                        <p>Maverick Viñales</p>
+                    </div>
+                    <div class="rider" data-name="Enea Bastianini" data-image="img/riders/Bastianini.png">
+                        <p>Enea Bastianini</p>
+                    </div>
+                </div>
+            </div>
+            <div class="team trackhouse" data-team="Trackhouse MotoGP Team">
+                <img src="img/Trackhouse.png" alt="Trackhouse MotoGP Team">
+                <div class="riders">
+                    <div class="rider" data-name="Raul Fernandez" data-image="img/riders/Fernandez.png">
+                        <p>Raul Fernandez</p>
+                    </div>
+                    <div class="rider" data-name="Ai Ogura" data-image="img/riders/ogura.png">
+                        <p>Ai Ogura</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="team pramac" data-team="Leyendas">
+                <img src="img/Leyendas.png" alt="Leyendas">
+                <div class="riders">
+                    <div class="rider" data-name="Lorenzo Salvadori" data-image="img/riders/Salvadori.png">
+                        <p>Lorenzo Salvadori</p>
+                    </div>
+                    <div class="rider" data-name="Aleix Espargaro " data-image="img/riders/Aleix.png">
+                        <p>Aleix Espargaro</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,11 +172,16 @@
         </div>
         <div class="footer-right">
             <p>Contacto: <a href="mailto:contacto@gpriders.com" style="color: white; text-decoration: none;">contacto@gpriders.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="24" height="24">
+                </a>
+            </div>
         </div>
     </footer>
-
     <script src="script.js"></script>
-
 </body>
 </html>
-

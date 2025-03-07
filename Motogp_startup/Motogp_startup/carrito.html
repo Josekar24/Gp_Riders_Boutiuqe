@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="GP Riders Boutique">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Productos</a></li>
+                <li><a href="equipamientos.html">Equipamiento</a></li>
+                <li><a href="moto_gp.html">Motos GP</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon" style="cursor: pointer;">
+            <img src="img/entrega.png" alt="Carrito">
+        </div>
+    </header>
+
+    <main>
+        <h2>Carrito de Compras</h2>
+        <div id="cart-container">
+            <p>Tu carrito está vacío.</p>
+        </div>
+        <button id="checkout-button">Finalizar Compra</button>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p><strong>Colaboradores:</strong> Moto GP, Ducati, Red Bull</p>
+        </div>
+        <div class="footer-center">
+            <p>&copy; 2025 Todos los derechos reservados.</p>
+        </div>
+        <div class="footer-right">
+            <p>Contacto: <a href="mailto:contacto@gpriders.com" style="color: white; text-decoration: none;">contacto@gpriders.com</a></p>
+        </div>
+    </footer>
+    <script src="carrito.js"></script>
+</body>
+</html>
